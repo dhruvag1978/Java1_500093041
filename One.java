@@ -1,9 +1,9 @@
 class Main {
     public static void main(String[] args) {
-        Employee e = new Employee("Sam", 1600, 75000f);
+        Employee e = new Employee("Dhruv", 2345, 65000f);
         e.returname();
         e.returnsal();
-        e.Increasesal(25);
+        e.Increasesal(30);
         Employee e1 = new Employee();
         e1.returname();
         e1.returnsal();
@@ -15,9 +15,9 @@ class Employee {
     int empid;
     float salary;
     Employee() {
-    this.name = "Sid";
-    this.empid = 1345;
-    this.salary = 35000f;
+    this.name = "Siddhanth";
+    this.empid = 3245;
+    this.salary = 45000f;
     }
 Employee(String n, int eid, float s) 
 {
